@@ -333,8 +333,8 @@ Table 3. Comparison of loss bariers between fine-tuned BERT model across 8 GLUE 
 
 ## Conclusion
 
-In this work, the authors develop a new strategy for model mergring based on permutation mapping and demonstrates reduced loss barriers between masked languaged models with different initialziation compared to vanilla merging. Next, they extend their approach to fine-tuned models. The authors suggest that understanding the connectedness between models lead to achieving sharpness of minima and smoothness Transformer loss space. Moreover, it can open up new possibilities for improving design optimization methods, ensembles of models, and additional merging techniques. Specifically, this paper shows that permutation invariances of Transformer model is considered to characterize the geometric features of minima. Finally, they shad the light on the relationships between fine-tuned models, Transformer width and loss barriers, and the data for characterize the relationship between Transformer minima.
-
+In this work, the authors develop a new strategy for model mergring based on permutation mapping and demonstrates reduced loss barriers between masked languaged models with different initialziation compared to vanilla merging. Finally, they extend their approach to fine-tuned models.
+The authors suggest that understanding the connectedness between models lead to achieving sharpness of minima and smoothness Transformer loss space. This paper opens up new possibilities for improving design optimization methods, ensembles of models, and additional merging techniques. Specifically, this paper shows that permutation invariances of Transformer model is considered to characterize the geometric features of minima. They shad the light on the relationships between fine-tuned models, Transformer width and loss barriers, and the data for characterize the relationship between Transformer minima.
 Further research is possible, examining the proposed techniques on a more complicated or larger dataset. Also, more sophisticated inspection on the aformentioned M-shaped loss curve is needed.
 
 
